@@ -1,19 +1,25 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     min-height: 100vh;
-    font-family: roboto, serif;
+    font-family: roboto;
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    width: 900px;
+    width: 1000px;
 }
 
 .hero-section{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #1F2937;
+    padding: 16px 0;
+    gap: 48px;
 }
 
 .header{
@@ -36,6 +42,147 @@ ul{
     color: #E5E7EB;
 }
 
+.hero{
+    display: flex;
+    gap: 18px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.maintext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sec-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+.placeholder{
+    background-color: #E5E7EB;
+    color: #E5E7EE;
+    width: 200px;
+    padding: 42px;
+
+}
+
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 20px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 140px;
+    gap: 24px;
+
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.item-one{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-wrap: wrap;
+    
+}
+
+.image{
+    width: 140px;
+    height: 140px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.some-text{
+    display: flex;
+    font-size: 18px;
+    
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 70px 100px;
+    gap: 8px;
+}
+
+.quote{
+    font-size: 28px;
+    color: #1F2937;
+    font-weight: 300;
+}
+.autor{
+    align-self: flex-end;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 70px 0;
+}
+.call-action{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 70px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 20px 70px ;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    color: #E5E7EB;
+}
+
+.adv{
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.end{
+    border: 2px solid #F9FAF8;
+}
+
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px 50px;
 }
