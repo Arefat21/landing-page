@@ -4,7 +4,8 @@ body{
     align-items: center;
     background-color: black;
     min-height: 100vh;
-    font-family: roboto serif;
+    font-family: "Roboto", sans-serif;
+
 }
 
 .container{
